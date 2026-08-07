@@ -10,3 +10,6 @@ def total_salary(path):
     total += int(salary)
   average = total / len(lines)
   return total, average
+
+total, average = total_salary("salary_file.txt")
+print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
